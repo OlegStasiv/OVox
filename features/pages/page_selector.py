@@ -35,6 +35,7 @@ class GeneralLocator(object):
     TABLE_FIRST = (By.XPATH, './/div[@id="tableBody"]/div[1]')
     TABLE_SECOND = (By.XPATH, './/div[@id="tableBody"]/div[2]')
     SEARCH = (By.ID, 'searchContainer')
+    TOAST = (By.CLASS_NAME, 'toast-message')
 
 
 

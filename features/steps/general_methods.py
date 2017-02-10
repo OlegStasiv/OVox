@@ -106,3 +106,10 @@ def sort_by_column_name(context, name):
     actual_result = sorted(all_managers_after_filter_by_name, reverse=True)
     assert all_managers_after_filter_by_name == actual_result
 
+
+def getToastMessage(context):
+    try:
+        search_result = context.browser.find_element(*GeneralLocator.TOAST)
+        return search_result
+    except NoSuchElementException:
+        time.sleep(0.5)

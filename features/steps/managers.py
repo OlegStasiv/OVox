@@ -166,22 +166,25 @@ def step_impl(context, name1, name2):
         assert (any(name1 in s for s in search_array))
 
 
+@when("click on AddManager button")
+def step_impl(context):
+    context.browser.find_element(*GeneralLocator.ADD_MANAGER_BTN).click()
+    time.sleep(1)
 
 
-    # try:
-    #     search_result = context.browser.find_elements(*GeneralLocator.TABLE_BODY)
-    #     search_array = []
-    #     for i in search_result:
-    #         a = i.text
-    #         b = a.split("\n")
-    #         search_array.append(b)
-    #
-    #     if any(name2 in s for s in search_array):
-    #         print("Exist")
-    #
-    # except Exception:
-    #     print("Not Exist")
-
-
-
-
+@when("click on Add Manager without any data")
+def step_impl(context):
+    time.sleep(0.5)
+    context.browser.find_element(*AddManager.SAVE_NEW_MANAGER_BTN).click()
+    #context.browser.find_element(*AddManager.SAVE_NEW_MANAGER_BTN).click()
+    time.sleep(0.5)
+@then('appears toast message "{toast}"')
+def step_impl(context, toast):
+    message = general_methods.getToastMessage(context)
+    try:
+        my = message.text
+        print (my)
+        assert toast == my
+    except AttributeError:
+        time.sleep(0.5)
+        assert False

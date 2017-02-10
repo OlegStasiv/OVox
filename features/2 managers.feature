@@ -62,3 +62,11 @@ Scenario: Search
     | Wallen     | Xzibit      | 111111111  | tetiit@test.com |
   When try search "Ronald"
   Then list contain only "Ronald Dithem" and not contain "Arnold Bobo"
+
+  Scenario: Create manager negative
+    Given website "http://omnivox.thinkmobiles.com/"
+    When login ass owner
+    When click on Manager in Menu
+    When click on AddManager button
+    When click on Add Manager without any data
+    Then appears toast message "Email required"

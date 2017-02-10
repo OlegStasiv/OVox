@@ -2,10 +2,12 @@ import os
 from pyvirtualdisplay import Display, display
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from xvfbwrapper import Xvfb
 
 
 def before_scenario(context, scenario):
-
+    xf = Xvfb(1920, 1080)  # xf = Xvfb(1920, 1080) - will create virtual display with 1920x1080 size
+    xf.start()
     #display = Display(visible=1, size=(1280, 720))
 
     #display.start()
