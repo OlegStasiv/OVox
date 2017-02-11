@@ -3,6 +3,8 @@ import time
 from behave import given, when, then
 
 #from dbfolder.writeToFile import write_to_file
+from selenium.webdriver import ActionChains
+
 from dbfolder.writeToFile import write_to_file
 from features.pages.page_selector import LoginPageLocator, SignUpLocator, GeneralLocator
 from features.steps.general_methods import generate_any_word, generate_digits
@@ -44,7 +46,9 @@ def step_impl(context):
 @when("click on Signup button")
 def step_impl(context):
     time.sleep(1)
-    context.browser.find_element(*SignUpLocator.SIGNUP).click()
+    a = context.browser.find_element(*SignUpLocator.SIGNUP)
+    actions = ActionChains(context.browser)
+    actions.move_to_element(a).click().perform()
     time.sleep(2)
 
 
@@ -52,7 +56,7 @@ def step_impl(context):
 def step_impl(context):
     context.browser.find_element(*GeneralLocator.PROFILE_DROPDOWN).click()
     context.browser.find_element(*GeneralLocator.SETTINGS).click()
-    time.sleep(1)
+    time.sleep(3)
 
 
 @then("all data is correct")
