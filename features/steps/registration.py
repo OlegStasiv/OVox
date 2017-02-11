@@ -54,7 +54,9 @@ def step_impl(context):
 
 @when("click on Setting Profile")
 def step_impl(context):
+    time.sleep(1)
     context.browser.find_element(*GeneralLocator.PROFILE_DROPDOWN).click()
+    time.sleep(1)
     context.browser.find_element(*GeneralLocator.SETTINGS).click()
     time.sleep(3)
 
