@@ -43,6 +43,7 @@ def step_impl(context):
 
 @when("click on Signup button")
 def step_impl(context):
+    time.sleep(1)
     context.browser.find_element(*SignUpLocator.SIGNUP).click()
     time.sleep(2)
 
