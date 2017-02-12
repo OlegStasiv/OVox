@@ -1,6 +1,6 @@
 import turtle
 
-i = 150
+i = 170
 while i > 1:
 
     turtle.circle(i)
