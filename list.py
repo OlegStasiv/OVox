@@ -1,5 +1,6 @@
 import turtle
 oleg = 2000
+my  = 111
 i = 150
 while i > 1:
 
