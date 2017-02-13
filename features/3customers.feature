@@ -5,4 +5,3 @@ Scenario: Create customers
   When login ass owner
   When click on "Customers" in Menu
   When delete all managers except owner
-  When create "20" customers
