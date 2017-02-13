@@ -1,10 +1,13 @@
 import json
 import time
+
 from behave import given, when, then
 
 #from dbfolder.writeToFile import write_to_file
 from selenium.webdriver import ActionChains
-
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from dbfolder.writeToFile import write_to_file
 from features.pages.page_selector import LoginPageLocator, SignUpLocator, GeneralLocator
 from features.steps.general_methods import generate_any_word, generate_digits
@@ -63,7 +66,10 @@ def step_impl(context):
 
 @then("all data is correct")
 def step_impl(context):
-    get_company = context.browser.find_element(*SignUpLocator.COMPANY_NAME).get_attribute('value')
+    element = WebDriverWait(context.browser, 20).until(
+        EC.element_to_be_clickable((By.ID, "companyName")))
+    # get_company = context.browser.find_element(*SignUpLocator.COMPANY_NAME).get_attribute('value')
+    get_company = element.get_attribute('value')
     assert company == get_company
     get_phone = context.browser.find_element(*SignUpLocator.PHONENUMBER).get_attribute('value')
     assert phonenumber == get_phone
