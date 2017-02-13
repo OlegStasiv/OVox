@@ -42,6 +42,25 @@ def create_managers(context, count):
         time.sleep(1)
         i = i + 1
 
+def create_customers(context, count):
+    context.browser.find_element(*GeneralLocator.MENU_MANAGER).click()
+    with open(ROOT_DIR + '/managers.json') as data_file:
+        data = json.load(data_file)
+    i = 0
+
+    while i < int(count):
+        context.browser.find_element(*GeneralLocator.ADD_MANAGER_BTN).click()
+        time.sleep(1)
+        context.browser.find_element(*AddManager.F_NAME).send_keys(data["data"][i][0])
+        context.browser.find_element(*AddManager.L_NAME).send_keys(data["data"][i][1])
+        context.browser.find_element(*AddManager.PHONE).send_keys(data["data"][i][2])
+        context.browser.find_element(*AddManager.EMAIL).send_keys(data["data"][i][3])
+        context.browser.find_element(*AddManager.PASSWORD).send_keys("Go1234")
+        context.browser.find_element(*AddManager.CONFIRM_PASSWORD).send_keys("Go1234")
+        context.browser.find_element(*AddManager.SAVE_NEW_MANAGER_BTN).click()
+        time.sleep(1)
+        i = i + 1
+
 
 def generate_any_word(lenght_word_digit):
     from random import choice

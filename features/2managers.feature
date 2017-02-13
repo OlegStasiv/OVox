@@ -3,14 +3,14 @@ Feature: Managers
 Scenario: Create managers
   Given website "http://omnivox.thinkmobiles.com/"
   When login ass owner
-  When click on Manager in Menu
+  When click on "Managers" in Menu
   When delete all managers except owner
   When create "20" manager
 
 Scenario: Verify pagination
   Given website "http://omnivox.thinkmobiles.com/"
   When login ass owner
-  When click on Manager in Menu
+  When click on "Managers" in Menu
   Then pagination is present
   When click on pagination "50"
   Then managers list will be contain "21" users
@@ -20,7 +20,7 @@ Scenario: Verify pagination
 Scenario: Edit managers
   Given website "http://omnivox.thinkmobiles.com/"
   When login ass owner
-  When click on Manager in Menu
+  When click on "Managers" in Menu
   When click on any manager
   When change F-Name "Edit fname", L-Name "Edit lname", Phone "00000000000", Email "edit@test.com"
   When click on Save button
@@ -29,14 +29,14 @@ Scenario: Edit managers
 Scenario: Delete managers
   Given website "http://omnivox.thinkmobiles.com/"
   When login ass owner
-  When click on Manager in Menu
+  When click on "Managers" in Menu
   When delete all managers except owner
 
 Scenario: Sorting
 
   Given website "http://omnivox.thinkmobiles.com/"
   When login ass owner
-  When click on Manager in Menu
+  When click on "Managers" in Menu
   When delete all managers except owner
   When create few managers
     | first | last | phone | email |
@@ -53,7 +53,7 @@ Scenario: Search
 
   Given website "http://omnivox.thinkmobiles.com/"
   When login ass owner
-  When click on Manager in Menu
+  When click on "Managers" in Menu
   When delete all managers except owner
   When create few managers
     | first | last | phone | email |
@@ -66,7 +66,7 @@ Scenario: Search
   Scenario: Create manager negative
     Given website "http://omnivox.thinkmobiles.com/"
     When login ass owner
-    When click on Manager in Menu
+    When click on "Managers" in Menu
     When click on AddManager button
     When click on Add Manager without any data
     Then appears toast message "Email required"

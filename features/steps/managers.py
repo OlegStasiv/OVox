@@ -38,10 +38,10 @@ def step_impl(context, text):
     general_methods.create_managers(context, text)
 
 
-@when("click on Manager in Menu")
-def step_impl(context):
+@when('click on "{name}" in Menu')
+def step_impl(context, name):
     time.sleep(1)
-    context.browser.find_element(*GeneralLocator.MENU_MANAGER).click()
+    context.browser.find_element(By.XPATH, './/a[text()="{}"]'.format(name)).click()
     time.sleep(1)
 
 
@@ -123,6 +123,17 @@ def step_impl(context):
             context.browser.find_element(*GeneralLocator.TABLE_SECOND).click()
             context.browser.find_element(*AddManager.DELETE_MANAGER).click()
             time.sleep(0.5)
+    time.sleep(2)
+
+@when("delete all customers")
+def step_impl(context):
+    i = 1
+    while i < len(context.browser.find_elements(*GeneralLocator.TABLE_BODY)):
+        context.browser.find_element(*GeneralLocator.TABLE_FIRST).click()
+        deleteBtn = WebDriverWait(context.browser, 20).until(
+            EC.element_to_be_clickable((By.ID, "deleteCustomerBtn")))
+        deleteBtn.click()
+
     time.sleep(2)
 
 
