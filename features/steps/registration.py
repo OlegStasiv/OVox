@@ -70,27 +70,39 @@ def step_impl(context):
         EC.element_to_be_clickable((By.ID, "companyName")))
     context.browser.implicitly_wait(10)
     # get_company = context.browser.find_element(*SignUpLocator.COMPANY_NAME).get_attribute('value')
+    time.sleep(0.3)
     get_company = element.get_attribute('value')
     assert company == get_company
+    time.sleep(0.3)
     get_phone = context.browser.find_element(*SignUpLocator.PHONENUMBER).get_attribute('value')
     assert phonenumber == get_phone
+    time.sleep(0.3)
     get_vatin = context.browser.find_element(*SignUpLocator.VATIN).get_attribute('value')
     assert vatin == get_vatin
+    time.sleep(0.3)
     get_country = context.browser.find_element(*SignUpLocator.COUNTRY).get_attribute('value')
     assert "Ukraine" == get_country
+    time.sleep(0.3)
     get_fax = context.browser.find_element(*SignUpLocator.FAX).get_attribute('value')
     assert fax == get_fax
+    time.sleep(0.3)
     get_email = context.browser.find_element(*SignUpLocator.EMAIL).get_attribute('value')
     assert email == get_email
+    time.sleep(0.3)
     get_city = context.browser.find_element(*SignUpLocator.CITY).get_attribute('value')
     assert "Mukachevo" == get_city
+    time.sleep(0.3)
     get_postal = context.browser.find_element(*SignUpLocator.POSTALCODE).get_attribute('value')
     assert postalcode == get_postal
+    time.sleep(0.3)
     get_street = context.browser.find_element(*SignUpLocator.STREET).get_attribute('value')
     assert street == get_street
+    time.sleep(0.3)
     get_house = context.browser.find_element(*SignUpLocator.HOUSENUMBER).get_attribute('value')
     assert housenumber == get_house
+    time.sleep(0.3)
     get_fname = context.browser.find_element(*SignUpLocator.FIRSTNAME).get_attribute('value')
     assert firstname == get_fname
+    time.sleep(0.3)
     get_lname = context.browser.find_element(*SignUpLocator.LASTNAME).get_attribute('value')
     assert lastname == get_lname
