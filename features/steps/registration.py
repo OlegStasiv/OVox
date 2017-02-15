@@ -68,6 +68,7 @@ def step_impl(context):
 def step_impl(context):
     element = WebDriverWait(context.browser, 20).until(
         EC.element_to_be_clickable((By.ID, "companyName")))
+    context.browser.implicitly_wait(10)
     # get_company = context.browser.find_element(*SignUpLocator.COMPANY_NAME).get_attribute('value')
     get_company = element.get_attribute('value')
     assert company == get_company
