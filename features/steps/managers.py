@@ -16,7 +16,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 
 from wheel.signatures import assertTrue
-from features.pages.page_selector import AddManager, GeneralLocator
+from features.pages.page_selector import AddManager, GeneralLocator, AddCustomer
 import general_methods
 
 config = SafeConfigParser()
@@ -125,16 +125,7 @@ def step_impl(context):
             time.sleep(0.5)
     time.sleep(2)
 
-@when("delete all customers")
-def step_impl(context):
-    i = 1
-    while i < len(context.browser.find_elements(*GeneralLocator.TABLE_BODY)):
-        context.browser.find_element(*GeneralLocator.TABLE_FIRST).click()
-        deleteBtn = WebDriverWait(context.browser, 20).until(
-            EC.element_to_be_clickable((By.ID, "deleteCustomerBtn")))
-        deleteBtn.click()
 
-    time.sleep(2)
 
 
 @when("create few managers")
@@ -189,6 +180,7 @@ def step_impl(context):
     context.browser.find_element(*AddManager.SAVE_NEW_MANAGER_BTN).click()
     #context.browser.find_element(*AddManager.SAVE_NEW_MANAGER_BTN).click()
     time.sleep(0.5)
+
 @then('appears toast message "{toast}"')
 def step_impl(context, toast):
     message = general_methods.getToastMessage(context)

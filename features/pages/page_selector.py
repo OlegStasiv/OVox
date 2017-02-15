@@ -23,8 +23,37 @@ class AddManager(object):
     MANAGERS_DATA_LIST_CLASS = (By.XPATH, ".//div[@id='managerDetailsList']")
     DELETE_MANAGER = (By.ID, 'deleteManagerBtn')
 
+class AddCustomer(object):
+    COMPANY = (By.ID, 'companyNameForNewCustomer')
+    VATIN = (By.ID, 'VATINForNewCustomer')
+    COUNTRY = (By.ID, 'countryForNewCustomer')
+    CITY = (By.ID, 'cityForNewCustomer')
+    STREET = (By.ID, 'streetForNewCustomer')
+    HOUSE = (By.ID, 'houseNumberForNewCustomer')
+    PHONE = (By.ID, 'phoneNumberForNewCustomer')
+    SAVE_NEW_CUSTOMER_BTN = (By.ID, 'saveNewCustomerBtn')
+    COMPANY_SIDE_MENU = (By.ID, 'companyName')
+    PHONE_SIDE_MENU = (By.ID, 'phoneNumber')
+    COUNTRY_SIDE_MENU = (By.ID, 'country')
+    CITY_SIDE_MENU = (By.ID, 'city')
+    STREET_SIDE_MENU = (By.ID, 'street')
+    HOUSE_SIDE_MENU = (By.ID, 'houseNumber')
+    VATIN_SIDE_MENU = (By.ID, 'VATIN')
+    SAVE_EDITABLE_CUSTOMER = (By.ID, 'editCustomerBtn')
+
+class AddWorker(object):
+    FIRST_NAME = (By.ID, 'firstNameForNewWorker')
+    LAST_NAME = (By.ID, 'lastNameForNewWorker')
+    PHONE = (By.ID, 'phoneNumberForNewWorker')
+    SAVE_NEW_WORKER_BTN = (By.ID, 'saveNewWorkerBtn')
+    DROPDOWN_LIST = (By.ID, 'managerForNewWorker-button')
+
+
+
 class GeneralLocator(object):
     MENU_MANAGER = (By.XPATH, './/a[text()="Managers"]')
+    MENU_CUSTOMER = (By.XPATH, './/a[text()="Customers"]')
+    MENU_WORKER = (By.XPATH, './/a[text()="Workers"]')
     ADD_MANAGER_BTN = (By.ID, 'showAddBtn')
     PROFILE_DROPDOWN = (By.ID, 'menuDropBtn')
     SETTINGS = (By.XPATH, './/a[text()[contains(.,"Settings")]]')
