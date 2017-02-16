@@ -1,7 +1,7 @@
 Feature: Managers
 
 Scenario: Create managers
-  Given website "http://omnivox.thinkmobiles.com/"
+  Given website "http://time.omnivox.eu"
   When login ass owner
   When click on "Managers" in Menu
   When delete all managers except owner

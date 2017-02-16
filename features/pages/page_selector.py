@@ -47,6 +47,9 @@ class AddWorker(object):
     PHONE = (By.ID, 'phoneNumberForNewWorker')
     SAVE_NEW_WORKER_BTN = (By.ID, 'saveNewWorkerBtn')
     DROPDOWN_LIST = (By.ID, 'managerForNewWorker-button')
+    SHOW_PROTOCOL_BTN = (By.ID, 'showWorkProtocol')
+    GET_REPORT_BTN = (By.ID, 'getReportBtn')
+    MULTIActionReportBtn = (By.ID, 'multiActionReportBtn')
 
 
 
