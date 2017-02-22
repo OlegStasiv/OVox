@@ -57,6 +57,7 @@ def step_impl(context):
 
 @when('click on pagination "{text}"')
 def step_impl(context, text):
+    time.sleep(1)
     context.browser.find_element(*GeneralLocator.PAGINATION_DROPDOWN).click()
     time.sleep(0.2)
     context.browser.find_element(By.XPATH, ".//div[text()='{}']".format(text)).click()
@@ -72,6 +73,13 @@ def step_impl(context, text):
 @when("click on any manager")
 def step_impl(context):
     context.browser.find_element(*GeneralLocator.TABLE_FIRST).click()
+    a = context.browser.find_element(By.XPATH, ".//div[@id='managerDetailsList']").get_attribute("class")
+    if 'item disable-all' != a:
+        time.sleep(0.5)
+        pass
+    else:
+        context.browser.find_element(*GeneralLocator.TABLE_SECOND).click()
+        time.sleep(0.5)
     time.sleep(1)
 
 user_info_edit = []

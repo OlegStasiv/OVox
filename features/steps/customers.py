@@ -60,3 +60,8 @@ def step_impl(context):
 def step_impl(context):
     context.browser.find_element(*AddCustomer.SAVE_EDITABLE_CUSTOMER).click()
     time.sleep(1)
+
+
+@when("click on any customer")
+def step_impl(context):
+    context.browser.find_element(*GeneralLocator.TABLE_FIRST).click()

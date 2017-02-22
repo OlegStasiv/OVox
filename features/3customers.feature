@@ -21,7 +21,7 @@ Scenario: Edit customer
   Given website "http://omnivox.thinkmobiles.com/"
   When login ass owner
   When click on "Customers" in Menu
-  When click on any manager
+  When click on any customer
   When change Company "Zina", Phone "0000000000", Country "Ukraine"
   When click on Save button into Managers
   Then customer was changed successfully
