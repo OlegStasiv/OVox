@@ -4,20 +4,16 @@ import time
 
 from behave import given, when, then
 
-#from dbfolder.writeToFile import write_to_file
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from dbfolder.writeToFile import write_to_file
 from features.pages.page_selector import LoginPageLocator, SignUpLocator, GeneralLocator
 from features.steps.general_methods import generate_any_word, generate_digits
-
 
 @when("click on Sign up tab")
 def step(context):
     context.browser.find_element(*SignUpLocator.SIGNUP_BTN).click()
-
 
 company = generate_any_word(15)
 vatin = generate_digits(16)
