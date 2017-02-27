@@ -7,6 +7,8 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from wheel.signatures import assertTrue
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import json
 from pprint import pprint
 from features.pages.page_selector import LoginPageLocator, GeneralLocator, \
@@ -15,31 +17,38 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 def login(context, email, password):
-    context.browser.find_element(*LoginPageLocator.EMAIL_FIELD).send_keys(email)
-    context.browser.find_element(*LoginPageLocator.PASSWORD_FIELD).send_keys(password)
-    context.browser.find_element(*LoginPageLocator.SIGNIN_BUTTON).click()
-
+    wait = WebDriverWait(context.browser, 10)
+    wait.until(EC.element_to_be_clickable((LoginPageLocator.EMAIL_FIELD)))\
+        .send_keys(email)
+    wait.until(EC.element_to_be_clickable((LoginPageLocator.PASSWORD_FIELD)))\
+        .send_keys(password)
+    wait.until(EC.element_to_be_clickable((LoginPageLocator.SIGNIN_BUTTON)))\
+        .click()
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def create_managers(context, count):
-    context.browser.find_element(*GeneralLocator.MENU_MANAGER).click()
+    wait = WebDriverWait(context.browser, 10)
+
+    # wait.until(EC.element_located_to_be_selected((GeneralLocator.MENU_MANAGER))).click()
+    # context.browser.find_element(*GeneralLocator.MENU_MANAGER).click()
     with open(ROOT_DIR + '/managers.json') as data_file:
         data = json.load(data_file)
     i = 0
 
     while i < int(count):
+        time.sleep(0.3)
         context.browser.find_element(*GeneralLocator.ADD_MANAGER_BTN).click()
-        time.sleep(1)
-        context.browser.find_element(*AddManager.F_NAME).send_keys(data["data"][i][0])
+        wait.until(EC.presence_of_element_located((AddManager.F_NAME))).\
+            send_keys(data["data"][i][0])
         context.browser.find_element(*AddManager.L_NAME).send_keys(data["data"][i][1])
         context.browser.find_element(*AddManager.PHONE).send_keys(data["data"][i][2])
         context.browser.find_element(*AddManager.EMAIL).send_keys(data["data"][i][3])
         context.browser.find_element(*AddManager.PASSWORD).send_keys("Go1234")
         context.browser.find_element(*AddManager.CONFIRM_PASSWORD).send_keys("Go1234")
         context.browser.find_element(*AddManager.SAVE_NEW_MANAGER_BTN).click()
-        time.sleep(1)
+        time.sleep(0.3)
         i = i + 1
 
 def create_customers(context, count):

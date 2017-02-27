@@ -3,13 +3,8 @@ import re
 from ConfigParser import SafeConfigParser
 
 import time
-
-from behave import model
-from lxml import etree
-from telnetlib import EC
-
 from behave import *
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -27,22 +22,22 @@ psw = config.get('main', 'psw')
 #Вводимо логін
 @when("login ass owner")
 def step(context):
-    time.sleep(2)
     general_methods.login(context,email=username, password=psw)
-    time.sleep(1)
+
 
 
 @when('create "{text}" manager')
 def step_impl(context, text):
-    time.sleep(1)
     general_methods.create_managers(context, text)
 
 
 @when('click on "{name}" in Menu')
 def step_impl(context, name):
-    time.sleep(1)
-    context.browser.find_element(By.XPATH, './/a[text()="{}"]'.format(name)).click()
-    time.sleep(1)
+    wait = WebDriverWait(context.browser, 10)
+    wait.until(EC.element_to_be_clickable((By.XPATH, './/a[text()="{}"]'.format(name)))) \
+        .click()
+    # context.browser.find_element(By.XPATH, './/a[text()="{}"]'.format(name)).click()
+
 
 
 @given('website "{text}"')
@@ -57,11 +52,17 @@ def step_impl(context):
 
 @when('click on pagination "{text}"')
 def step_impl(context, text):
-    time.sleep(1)
+    wait = WebDriverWait(context.browser, 10)
+    time.sleep(0.8)
+    # a = wait.until(EC.element_located_to_be_selected((GeneralLocator.PAGINATION_DROPDOWN)))
+    # a.click()
     context.browser.find_element(*GeneralLocator.PAGINATION_DROPDOWN).click()
-    time.sleep(0.2)
+    # time.sleep(0.2)
+    # wait.until(EC.element_located_to_be_selected((By.XPATH, ".//div[text()='{}']".format(text))))\
+    #     .click()
+    #
     context.browser.find_element(By.XPATH, ".//div[text()='{}']".format(text)).click()
-    time.sleep(5)
+    time.sleep(1)
 
 
 @then('managers list will be contain "{text}" users')
@@ -72,6 +73,7 @@ def step_impl(context, text):
 
 @when("click on any manager")
 def step_impl(context):
+    time.sleep(1)
     context.browser.find_element(*GeneralLocator.TABLE_FIRST).click()
     a = context.browser.find_element(By.XPATH, ".//div[@id='managerDetailsList']").get_attribute("class")
     if 'item disable-all' != a:
@@ -119,19 +121,25 @@ def step_impl(context):
 
 @when("delete all managers except owner")
 def step_impl(context):
+    wait = WebDriverWait(context.browser, 10)
     i = 1
+    context.browser.implicitly_wait(10)
+    time.sleep(1)
     while i < len(context.browser.find_elements(*GeneralLocator.TABLE_BODY)):
-        #count = len(context.browser.find_elements(*GeneralLocator.TABLE_BODY))
-        context.browser.find_element(*GeneralLocator.TABLE_FIRST).click()
-        a = context.browser.find_element(By.XPATH, ".//div[@id='managerDetailsList']").get_attribute("class")
+        time.sleep(0.2)
+        wait.until(EC.element_to_be_clickable((GeneralLocator.TABLE_FIRST))).click()
+        a = wait.until(EC.visibility_of_element_located((By.XPATH, ".//div[@id='managerDetailsList']"))) \
+            .get_attribute("class")
         if 'item disable-all' != a:
-            context.browser.find_element(*AddManager.DELETE_MANAGER).click()
-            time.sleep(0.5)
+            wait.until(EC.element_to_be_clickable((AddManager.DELETE_MANAGER))) \
+                .click()
         else:
-            context.browser.find_element(*GeneralLocator.TABLE_SECOND).click()
-            context.browser.find_element(*AddManager.DELETE_MANAGER).click()
-            time.sleep(0.5)
-    time.sleep(2)
+            wait.until(EC.element_to_be_clickable((GeneralLocator.TABLE_SECOND))) \
+                .click()
+            wait.until(EC.element_to_be_clickable((AddManager.DELETE_MANAGER))) \
+                .click()
+
+        time.sleep(0.2)
 
 
 
@@ -178,16 +186,17 @@ def step_impl(context, name1, name2):
 
 @when("click on AddManager button")
 def step_impl(context):
+    time.sleep(0.7)
     context.browser.find_element(*GeneralLocator.ADD_MANAGER_BTN).click()
-    time.sleep(1)
+    time.sleep(0.7)
 
 
 @when("click on Add Manager without any data")
 def step_impl(context):
-    time.sleep(0.5)
+    time.sleep(0.7)
     context.browser.find_element(*AddManager.SAVE_NEW_MANAGER_BTN).click()
     #context.browser.find_element(*AddManager.SAVE_NEW_MANAGER_BTN).click()
-    time.sleep(0.5)
+    time.sleep(0.7)
 
 @then('appears toast message "{toast}"')
 def step_impl(context, toast):

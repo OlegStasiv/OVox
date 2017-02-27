@@ -2,7 +2,7 @@ import os
 from pyvirtualdisplay import Display, display
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 def before_scenario(context, scenario):
@@ -18,6 +18,8 @@ def before_scenario(context, scenario):
     context.browser.implicitly_wait(20)
     context.browser.set_window_size(1280, 768)
     context.browser.maximize_window()
+
+
 
 
 def after_scenario(context, scenario):

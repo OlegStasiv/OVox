@@ -24,6 +24,7 @@ def step_impl(context, text):
 @when("click on any worker")
 def step_impl(context):
     try:
+        time.sleep(1)
         context.browser.find_element(By.XPATH, ".//div[@id='tableBody']/div[1]").click()
         time.sleep(2)
     except:

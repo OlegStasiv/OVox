@@ -17,12 +17,13 @@ import general_methods
 @when("delete all customers")
 def step_impl(context):
     context.browser.implicitly_wait(10)
+    time.sleep(0.5)
     i = 1
     while i <= len(context.browser.find_elements(*GeneralLocator.TABLE_BODY)):
         context.browser.find_element(*GeneralLocator.TABLE_FIRST).click()
         btn = context.browser.find_element(By.ID, "deleteCustomerBtn")
         btn.click()
-        time.sleep(1)
+        time.sleep(0.5)
 
 
 @when('create "{text}" customers')
@@ -64,4 +65,5 @@ def step_impl(context):
 
 @when("click on any customer")
 def step_impl(context):
+    time.sleep(0.5)
     context.browser.find_element(*GeneralLocator.TABLE_FIRST).click()
