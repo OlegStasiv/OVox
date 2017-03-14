@@ -63,6 +63,7 @@ Scenario: Search
   When try search "Ronald"
   Then list contain only "Ronald Dithem" and not contain "Arnold Bobo"
 
+  @test
   Scenario: Create manager negative
     Given website "http://omnivox.thinkmobiles.com/"
     When login ass owner
