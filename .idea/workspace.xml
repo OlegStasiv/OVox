@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f6cdfa2-3b82-4e2d-94dd-a911cffa737b" name="Default" comment="release">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/OmniVox.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/environment.py" afterPath="$PROJECT_DIR$/features/environment.py" />
+    <list default="true" id="1f6cdfa2-3b82-4e2d-94dd-a911cffa737b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/steps/screenshots/edit employee.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/steps/screenshots/data.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OmniVox.iml" afterPath="$PROJECT_DIR$/.idea/OmniVox.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QADashboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,44 +19,70 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/OmniVox$testttttt.coverage" NAME="testttttt Coverage Results" MODIFIED="1485784729678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/QADashboard$ggg.coverage" NAME="ggg Coverage Results" MODIFIED="1477821489725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/QADashboard$3_organization_feature.coverage" NAME="3 organization.feature Coverage Results" MODIFIED="1485339652915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$1_registration_feature.coverage" NAME="1 registration.feature Coverage Results" MODIFIED="1486821575490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature_some_scenario.coverage" NAME="2 managers.feature:some scenario Coverage Results" MODIFIED="1486029379956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$4workers_feature_Create_workers.coverage" NAME="4workers.feature:Create workers Coverage Results" MODIFIED="1487080933649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$3customers_feature_Edit_managers.coverage" NAME="3customers.feature:Edit managers Coverage Results" MODIFIED="1487062330818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$popups_feature_Show_protocol_pop_up.coverage" NAME="popups.feature:Show protocol pop-up Coverage Results" MODIFIED="1487852492330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$popups_feature.coverage" NAME="popups.feature Coverage Results" MODIFIED="1487852112379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature.coverage" NAME="2 managers.feature Coverage Results" MODIFIED="1486556726859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/QADashboard$features.coverage" NAME="features Coverage Results" MODIFIED="1485501290748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/QADashboard$login_feature_Forgot_Password.coverage" NAME="login.feature:Forgot Password Coverage Results" MODIFIED="1477777229490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/QADashboard$2_login_feature.coverage" NAME="2 login.feature Coverage Results" MODIFIED="1480602107090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature_Create_managers.coverage" NAME="2 managers.feature:Create managers Coverage Results" MODIFIED="1486546433250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature_Verify_pagination.coverage" NAME="2 managers.feature:Verify pagination Coverage Results" MODIFIED="1485874120207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OmniVox$1_registration_feature.coverage" NAME="1 registration.feature Coverage Results" MODIFIED="1485852734848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$page_selector.coverage" NAME="page_selector Coverage Results" MODIFIED="1488016014730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/pages" />
+    <SUITE FILE_PATH="coverage/QADashboard$registration_feature_heck_registration_with_empty_fields.coverage" NAME="registration.feature:Сheck registration with empty fields Coverage Results" MODIFIED="1477777205244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$4workers_feature.coverage" NAME="4workers.feature Coverage Results" MODIFIED="1487080394250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$2managers_feature_Edit_managers.coverage" NAME="2managers.feature:Edit managers Coverage Results" MODIFIED="1487335576635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/QADashboard$3_organization_feature_Add_user_to_organization.coverage" NAME="3 organization.feature:Add user to organization Coverage Results" MODIFIED="1485506550109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OmniVox$3_organization_feature.coverage" NAME="3 organization.feature Coverage Results" MODIFIED="1485779955504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$1registration_feature_heck_registration_with_valid_data.coverage" NAME="1registration.feature:Сheck registration with valid data Coverage Results" MODIFIED="1486904817884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$features.coverage" NAME="features Coverage Results" MODIFIED="1488208770806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$popups_feature_Verify_all_popups.coverage" NAME="popups.feature:Verify all popups Coverage Results" MODIFIED="1487251181543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$2managers_feature_Create_managers.coverage" NAME="2managers.feature:Create managers Coverage Results" MODIFIED="1488190245677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/QADashboard$organization.coverage" NAME="organization Coverage Results" MODIFIED="1479889342605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature_Edit_managers.coverage" NAME="2 managers.feature:Edit managers Coverage Results" MODIFIED="1485938114292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$1registration_feature.coverage" NAME="1registration.feature Coverage Results" MODIFIED="1487163536388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$1_registration_feature_heck_registration_with_valid_data.coverage" NAME="1 registration.feature:Сheck registration with valid data Coverage Results" MODIFIED="1486904790958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$general_methods.coverage" NAME="general_methods Coverage Results" MODIFIED="1487022617028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/OmniVox$testtttt.coverage" NAME="testtttt Coverage Results" MODIFIED="1485777574679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/OmniVox$testttttt.coverage" NAME="testttttt Coverage Results" MODIFIED="1485784729678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/QADashboard$3_organization_feature.coverage" NAME="3 organization.feature Coverage Results" MODIFIED="1485339652915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/QADashboard$1_registration_feature.coverage" NAME="1 registration.feature Coverage Results" MODIFIED="1480602094070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/OmniVox$features.coverage" NAME="features Coverage Results" MODIFIED="1486023266929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/QADashboard$registration_feature.coverage" NAME="registration.feature Coverage Results" MODIFIED="1477776412512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/QADashboard$regexp.coverage" NAME="regexp Coverage Results" MODIFIED="1477822357271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbfolder" />
     <SUITE FILE_PATH="coverage/QADashboard$3_organization_feature_Edit_organization.coverage" NAME="3 organization.feature:Edit organization Coverage Results" MODIFIED="1485264090458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature_Filtering.coverage" NAME="2 managers.feature:Filtering Coverage Results" MODIFIED="1486651241771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$2managers_feature_Create_a_manager_without_any_data.coverage" NAME="2managers.feature:Create a manager without any data Coverage Results" MODIFIED="1489757520359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/OVox$2_managers_feature_Create_manager_negative.coverage" NAME="2 managers.feature:Create manager negative Coverage Results" MODIFIED="1486736771591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$test.coverage" NAME="test Coverage Results" MODIFIED="1489690146680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature_Delete_managers.coverage" NAME="2 managers.feature:Delete managers Coverage Results" MODIFIED="1485961835898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature.coverage" NAME="2 managers.feature Coverage Results" MODIFIED="1486556726859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/QADashboard$features.coverage" NAME="features Coverage Results" MODIFIED="1485501290748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/QADashboard$login_feature_Forgot_Password.coverage" NAME="login.feature:Forgot Password Coverage Results" MODIFIED="1477777229490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/QADashboard$2_login_feature.coverage" NAME="2 login.feature Coverage Results" MODIFIED="1480602107090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$2managers_feature_Delete_managers.coverage" NAME="2managers.feature:Delete managers Coverage Results" MODIFIED="1487861203463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$3customers_feature_Edit_customer.coverage" NAME="3customers.feature:Edit customer Coverage Results" MODIFIED="1488195412308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/OmniVox$ttttttttt.coverage" NAME="ttttttttt Coverage Results" MODIFIED="1485937088818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbfolder" />
-    <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature_Create_managers.coverage" NAME="2 managers.feature:Create managers Coverage Results" MODIFIED="1486546433250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/OmniVox$managers.coverage" NAME="managers Coverage Results" MODIFIED="1486624897152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
-    <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature_Verify_pagination.coverage" NAME="2 managers.feature:Verify pagination Coverage Results" MODIFIED="1485874120207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/OmniVox$1_registration_feature.coverage" NAME="1 registration.feature Coverage Results" MODIFIED="1485852734848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/QADashboard$registration_feature_heck_registration_with_empty_fields.coverage" NAME="registration.feature:Сheck registration with empty fields Coverage Results" MODIFIED="1477777205244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$3customers_feature.coverage" NAME="3customers.feature Coverage Results" MODIFIED="1487602318980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$2managers_feature.coverage" NAME="2managers.feature Coverage Results" MODIFIED="1489757642052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$2managers_feature_Create_manager_negative.coverage" NAME="2managers.feature:Create manager negative Coverage Results" MODIFIED="1489757279126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/QADashboard$writeToFile.coverage" NAME="writeToFile Coverage Results" MODIFIED="1477818000749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbFolder" />
+    <SUITE FILE_PATH="coverage/OVox$popups_feature_Get_Report_pop_up.coverage" NAME="popups.feature:Get Report pop-up Coverage Results" MODIFIED="1487258421875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/QADashboard$2login_feature.coverage" NAME="2login.feature Coverage Results" MODIFIED="1477824353749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/QADashboard$2login_feature_Forgot_Password.coverage" NAME="2login.feature:Forgot Password Coverage Results" MODIFIED="1477834044620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/QADashboard$1registration_feature.coverage" NAME="1registration.feature Coverage Results" MODIFIED="1477818852261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/QADashboard$3_organization_feature_Add_user_to_organization.coverage" NAME="3 organization.feature:Add user to organization Coverage Results" MODIFIED="1485506550109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/OmniVox$3_organization_feature.coverage" NAME="3 organization.feature Coverage Results" MODIFIED="1485779955504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$2managers_feature_Verify_pagination.coverage" NAME="2managers.feature:Verify pagination Coverage Results" MODIFIED="1488185758364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/QADashboard$list.coverage" NAME="list Coverage Results" MODIFIED="1478265848396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/QADashboard$organization.coverage" NAME="organization Coverage Results" MODIFIED="1479889342605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/QADashboard$3_organization_feature_test.coverage" NAME="3 organization.feature:test Coverage Results" MODIFIED="1481640999462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature_Edit_managers.coverage" NAME="2 managers.feature:Edit managers Coverage Results" MODIFIED="1485938114292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/QADashboard$browser.coverage" NAME="browser Coverage Results" MODIFIED="1477730270600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
     <SUITE FILE_PATH="coverage/OmniVox$general_methods.coverage" NAME="general_methods Coverage Results" MODIFIED="1485777112891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/OmniVox$2_managers_feature_Filtering2.coverage" NAME="2 managers.feature:Filtering2 Coverage Results" MODIFIED="1486643763381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/QADashboard$login_feature.coverage" NAME="login.feature Coverage Results" MODIFIED="1477750119505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/OVox$2_managers_feature.coverage" NAME="2 managers.feature Coverage Results" MODIFIED="1486736824143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/OmniVox$testtttt.coverage" NAME="testtttt Coverage Results" MODIFIED="1485777574679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/OVox$3customers_feature_Create_customers.coverage" NAME="3customers.feature:Create customers Coverage Results" MODIFIED="1488194849734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OVox$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1489753895008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -69,33 +94,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2 managers.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/2 managers.feature">
+      <file leaf-file-name="2managers.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/2managers.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="environment.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/environment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="general_methods.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/steps/general_methods.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="795">
+              <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -104,20 +107,40 @@
       <file leaf-file-name="managers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/steps/managers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="184" column="25" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
+            <state relative-caret-position="135">
+              <caret line="200" column="14" selection-start-line="200" selection-start-column="14" selection-end-line="200" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general_methods.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/steps/general_methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/environment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
-                <element signature="e#24#33#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_selector.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/page_selector.py">
+      <file leaf-file-name="connection.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/youtrack/connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="20" column="53" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="53" />
+            <state relative-caret-position="155">
+              <caret line="737" column="8" selection-start-line="737" selection-start-column="8" selection-end-line="737" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -143,13 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/features/steps/page_selector.py" />
-        <option value="$PROJECT_DIR$/features/pages/login.py" />
-        <option value="$PROJECT_DIR$/browser.py" />
-        <option value="$PROJECT_DIR$/features/browser.py" />
-        <option value="$PROJECT_DIR$/features/registration.feature" />
-        <option value="$PROJECT_DIR$/features/login.feature" />
-        <option value="$PROJECT_DIR$/features/steps/variables.py" />
         <option value="$PROJECT_DIR$/db/writeToFile.py" />
         <option value="$PROJECT_DIR$/dbFolder/data.csv" />
         <option value="$PROJECT_DIR$/dbFolder/writeToFile.py" />
@@ -158,7 +174,6 @@
         <option value="$PROJECT_DIR$/dbfolder/get_mail.py" />
         <option value="$PROJECT_DIR$/data.csv" />
         <option value="$PROJECT_DIR$/features/2login.feature" />
-        <option value="$PROJECT_DIR$/list.py" />
         <option value="$PROJECT_DIR$/info_account.txt" />
         <option value="$PROJECT_DIR$/features/steps/login.py" />
         <option value="$PROJECT_DIR$/config.ini" />
@@ -174,14 +189,34 @@
         <option value="$PROJECT_DIR$/features/steps/organization.py" />
         <option value="$PROJECT_DIR$/jsons/data.json" />
         <option value="$PROJECT_DIR$/dbfolder/ttttttttt.py" />
-        <option value="$PROJECT_DIR$/features/steps/registration.py" />
         <option value="$PROJECT_DIR$/features/1 registration.feature" />
-        <option value="$PROJECT_DIR$/settings.ini" />
-        <option value="$PROJECT_DIR$/features/pages/page_selector.py" />
         <option value="$PROJECT_DIR$/features/2 managers.feature" />
+        <option value="$PROJECT_DIR$/token_list.txt" />
+        <option value="$PROJECT_DIR$/list.py" />
+        <option value="$PROJECT_DIR$/features/steps/variables.py" />
+        <option value="$PROJECT_DIR$/features/4workers.feature" />
+        <option value="$PROJECT_DIR$/features/steps/popups.py" />
+        <option value="$PROJECT_DIR$/features/pages/page_selector.py" />
+        <option value="$PROJECT_DIR$/features/popups.feature" />
+        <option value="$PROJECT_DIR$/features/pages/test.py" />
+        <option value="$PROJECT_DIR$/features/steps/managers.json" />
+        <option value="$PROJECT_DIR$/features/pages/managers.json" />
+        <option value="$PROJECT_DIR$/features/steps/customers.json" />
+        <option value="$PROJECT_DIR$/settings.ini" />
+        <option value="$PROJECT_DIR$/features/3customers.feature" />
+        <option value="$PROJECT_DIR$/features/steps/registration.py" />
+        <option value="$PROJECT_DIR$/features/steps/customers.py" />
+        <option value="$PROJECT_DIR$/features/steps/workers.py" />
         <option value="$PROJECT_DIR$/features/steps/general_methods.py" />
-        <option value="$PROJECT_DIR$/features/steps/managers.py" />
+        <option value="$PROJECT_DIR$/youtrack-remote-api/python/__init__.py" />
+        <option value="$PROJECT_DIR$/apiii/python/youtrack/connection.py" />
+        <option value="$PROJECT_DIR$/apiii/python/youtrack/__init__.py" />
+        <option value="/usr/local/lib/python2.7/dist-packages/youtrack/connection.py" />
+        <option value="$PROJECT_DIR$/features/steps/test.py" />
+        <option value="$PROJECT_DIR$/features/steps/test1.py" />
         <option value="$PROJECT_DIR$/features/environment.py" />
+        <option value="$PROJECT_DIR$/features/2managers.feature" />
+        <option value="$PROJECT_DIR$/features/steps/managers.py" />
       </list>
     </option>
   </component>
@@ -193,9 +228,31 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -250,20 +307,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OVox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OVox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -286,6 +329,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OVox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OVox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screenshots" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -300,21 +365,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jsons" />
-      <recent name="$PROJECT_DIR$/features/steps" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/features" />
-      <recent name="$PROJECT_DIR$/features/pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features/steps/screenshots" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/features/steps" />
       <recent name="$PROJECT_DIR$/features/pages" />
       <recent name="$PROJECT_DIR$/features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/youtrack-remote-api" />
+      <recent name="$PROJECT_DIR$/features/steps" />
+      <recent name="$PROJECT_DIR$/features" />
+      <recent name="$PROJECT_DIR$/jsons" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Behave.2 managers.feature">
-    <configuration default="false" name="2 managers.feature:Filtering" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+  <component name="RunManager" selected="Behave.2managers.feature">
+    <configuration default="false" name="2managers.feature:Create manager negative" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -325,59 +392,43 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OmniVox" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/2 managers.feature" />
-      <SCENRAIO_NAMES SCENRAIO_NAMES="Filtering" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="2 managers.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="/usr/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OmniVox" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/2 managers.feature" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="2 managers.feature:Filtering2" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="/usr/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OmniVox" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/2 managers.feature" />
-      <SCENRAIO_NAMES SCENRAIO_NAMES="Filtering2" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="2 managers.feature:Create manager negative" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="/usr/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OmniVox" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/2 managers.feature" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/2managers.feature" />
       <SCENRAIO_NAMES SCENRAIO_NAMES="Create manager negative" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
-    <configuration default="false" name="managers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="2managers.feature:Create a manager without any data" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OmniVox" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/2managers.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Create a manager without any data" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="2managers.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OmniVox" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/2managers.feature" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -390,7 +441,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OmniVox" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/features/steps/managers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/features/steps/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/features/steps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OmniVox" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/features/steps/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -604,19 +673,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Behave.2 managers.feature:Filtering" />
-      <item index="1" class="java.lang.String" itemvalue="Behave.2 managers.feature" />
-      <item index="2" class="java.lang.String" itemvalue="Behave.2 managers.feature:Filtering2" />
-      <item index="3" class="java.lang.String" itemvalue="Behave.2 managers.feature:Create manager negative" />
-      <item index="4" class="java.lang.String" itemvalue="Python.managers" />
+      <item index="0" class="java.lang.String" itemvalue="Behave.2managers.feature:Create manager negative" />
+      <item index="1" class="java.lang.String" itemvalue="Behave.2managers.feature:Create a manager without any data" />
+      <item index="2" class="java.lang.String" itemvalue="Behave.2managers.feature" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Behave.2 managers.feature" />
-        <item index="1" class="java.lang.String" itemvalue="Behave.2 managers.feature:Create manager negative" />
-        <item index="2" class="java.lang.String" itemvalue="Behave.2 managers.feature:Filtering" />
-        <item index="3" class="java.lang.String" itemvalue="Behave.2 managers.feature:Filtering2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.managers" />
+        <item index="0" class="java.lang.String" itemvalue="Behave.2managers.feature" />
+        <item index="1" class="java.lang.String" itemvalue="Behave.2managers.feature:Create a manager without any data" />
+        <item index="2" class="java.lang.String" itemvalue="Behave.2managers.feature:Create manager negative" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -690,56 +759,273 @@
       <option name="project" value="LOCAL" />
       <updated>1486738646228</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="remove xvbc">
+      <created>1486738827498</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1486738827498</updated>
+    </task>
+    <task id="LOCAL-00010" summary="rename features">
+      <created>1486824152304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1486824152304</updated>
+    </task>
+    <task id="LOCAL-00011" summary="time sleep">
+      <created>1486824897687</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1486824897687</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ActionChains">
+      <created>1486826610062</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1486826610062</updated>
+    </task>
+    <task id="LOCAL-00013" summary="sleep element 1">
+      <created>1486826809092</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1486826809092</updated>
+    </task>
+    <task id="LOCAL-00014" summary="connect display">
+      <created>1486827345002</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1486827345002</updated>
+    </task>
+    <task id="LOCAL-00015" summary="change resolution">
+      <created>1486828018373</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1486828018373</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1280x768">
+      <created>1486904004110</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1486904004110</updated>
+    </task>
+    <task id="LOCAL-00017" summary="testing">
+      <created>1486912161843</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1486912161843</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add variable test=1">
+      <created>1486912661626</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1486912661626</updated>
+    </task>
+    <task id="LOCAL-00019" summary="smile">
+      <created>1486914750291</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1486914750291</updated>
+    </task>
+    <task id="LOCAL-00020" summary="smilejkjhjhkj">
+      <created>1486915940683</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1486915940684</updated>
+    </task>
+    <task id="LOCAL-00021" summary="smilejkjhjhkj">
+      <created>1486920028097</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1486920028097</updated>
+    </task>
+    <task id="LOCAL-00022" summary="smilejkjhjhkj">
+      <created>1486933407733</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1486933407733</updated>
+    </task>
+    <task id="LOCAL-00023" summary="WebDriverWait">
+      <created>1486982287027</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1486982287027</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add customers">
+      <created>1487018220629</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1487018220630</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add customers try again">
+      <created>1487018370462</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1487018370462</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add customers clean">
+      <created>1487018896105</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1487018896105</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add workers">
+      <created>1487141745384</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1487141745384</updated>
+    </task>
+    <task id="LOCAL-00028" summary="implicitly_wait(10)">
+      <created>1487142589704</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1487142589704</updated>
+    </task>
+    <task id="LOCAL-00029" summary="time sleep reg">
+      <created>1487150855723</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1487150855723</updated>
+    </task>
+    <task id="LOCAL-00030" summary="comment asserts for registration profile">
+      <created>1487151551350</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1487151551350</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add verify pop-up windows">
+      <created>1487258576693</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1487258576693</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update tests">
+      <created>1487750180618</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1487750180618</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update tests">
+      <created>1488011980005</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1488011980005</updated>
+    </task>
+    <task id="LOCAL-00034" summary="refactor code">
+      <created>1488210199056</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1488210199056</updated>
+    </task>
+    <task id="LOCAL-00035" summary="youtrack">
+      <created>1488794965854</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1488794965854</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add tag @test">
+      <created>1489485434646</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1489485434646</updated>
+    </task>
+    <task id="LOCAL-00037" summary="implement youtrack">
+      <created>1489757595189</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1489757595189</updated>
+    </task>
+    <task id="LOCAL-00038" summary="screenshot folder">
+      <created>1489758423337</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1489758423337</updated>
+    </task>
+    <task id="LOCAL-00039" summary="screenshot folder again">
+      <created>1489758593902</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1489758593902</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="2_managers_feature - 2017.02.10 at 16h 29m 54s.xml">
-      <configuration name="2 managers.feature" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="2managers_feature - 2017.03.17 at 15h 36m 28s.xml">
+      <configuration name="2managers.feature" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="2_managers_feature_Create_manager_negative - 2017.02.10 at 16h 13m 05s.xml">
-      <configuration name="2 managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="2managers_feature_Create_a_manager_without_any_data - 2017.03.17 at 15h 30m 01s.xml">
+      <configuration name="2managers.feature:Create a manager without any data" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="2_managers_feature_Create_manager_negative - 2017.02.10 at 16h 14m 44s.xml">
-      <configuration name="2 managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="2managers_feature_Create_a_manager_without_any_data - 2017.03.17 at 15h 30m 47s.xml">
+      <configuration name="2managers.feature:Create a manager without any data" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="2_managers_feature_Create_manager_negative - 2017.02.10 at 16h 16m 21s.xml">
-      <configuration name="2 managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="2managers_feature_Create_a_manager_without_any_data - 2017.03.17 at 15h 32m 07s.xml">
+      <configuration name="2managers.feature:Create a manager without any data" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="2_managers_feature_Create_manager_negative - 2017.02.10 at 16h 17m 04s.xml">
-      <configuration name="2 managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="2managers_feature_Create_manager_negative - 2017.03.17 at 15h 23m 57s.xml">
+      <configuration name="2managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="2_managers_feature_Create_manager_negative - 2017.02.10 at 16h 19m 37s.xml">
-      <configuration name="2 managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="2managers_feature_Create_manager_negative - 2017.03.17 at 15h 24m 20s.xml">
+      <configuration name="2managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="2_managers_feature_Create_manager_negative - 2017.02.10 at 16h 22m 47s.xml">
-      <configuration name="2 managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="2managers_feature_Create_manager_negative - 2017.03.17 at 15h 26m 06s.xml">
+      <configuration name="2managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="2_managers_feature_Create_manager_negative - 2017.02.10 at 16h 23m 54s.xml">
-      <configuration name="2 managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="2managers_feature_Create_manager_negative - 2017.03.17 at 15h 26m 55s.xml">
+      <configuration name="2managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="2_managers_feature_Create_manager_negative - 2017.02.10 at 16h 24m 51s.xml">
-      <configuration name="2 managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="2managers_feature_Create_manager_negative - 2017.03.17 at 15h 27m 48s.xml">
+      <configuration name="2managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="2_managers_feature_Create_manager_negative - 2017.02.10 at 16h 26m 21s.xml">
-      <configuration name="2 managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="2managers_feature_Create_manager_negative - 2017.03.17 at 15h 28m 05s.xml">
+      <configuration name="2managers.feature:Create manager negative" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36494023" sideWeight="0.49380806" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30677292" sideWeight="0.49380806" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34365326" sideWeight="0.3243028" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47678018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.49083665" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44272447" sideWeight="0.6756972" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.6756972" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2012384" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35856575" sideWeight="0.50619197" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49380806" sideWeight="0.4884462" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662538" sideWeight="0.4884462" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -762,15 +1048,32 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
-    <MESSAGE value="release" />
-    <MESSAGE value="add Display" />
-    <MESSAGE value="add org delete and add members" />
-    <MESSAGE value="first commit" />
-    <MESSAGE value="add toast message" />
-    <MESSAGE value="change xvbnc" />
-    <MESSAGE value="display" />
-    <option name="LAST_COMMIT_MESSAGE" value="display" />
+    <MESSAGE value="ActionChains" />
+    <MESSAGE value="sleep element 1" />
+    <MESSAGE value="connect display" />
+    <MESSAGE value="change resolution" />
+    <MESSAGE value="1280x768" />
+    <MESSAGE value="testing" />
+    <MESSAGE value="add variable test=1" />
+    <MESSAGE value="smile" />
+    <MESSAGE value="smilejkjhjhkj" />
+    <MESSAGE value="WebDriverWait" />
+    <MESSAGE value="add customers" />
+    <MESSAGE value="add customers try again" />
+    <MESSAGE value="add customers clean" />
+    <MESSAGE value="add workers" />
+    <MESSAGE value="implicitly_wait(10)" />
+    <MESSAGE value="time sleep reg" />
+    <MESSAGE value="comment asserts for registration profile" />
+    <MESSAGE value="add verify pop-up windows" />
+    <MESSAGE value="update tests" />
+    <MESSAGE value="refactor code" />
+    <MESSAGE value="youtrack" />
+    <MESSAGE value="add tag @test" />
+    <MESSAGE value="implement youtrack" />
+    <MESSAGE value="screenshot folder" />
+    <MESSAGE value="screenshot folder again" />
+    <option name="LAST_COMMIT_MESSAGE" value="screenshot folder again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,6 +1097,26 @@
           <line>3</line>
           <option name="timeStamp" value="242" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/features/environment.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="680" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/features/environment.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="681" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/features/environment.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="682" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/features/environment.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="683" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -805,344 +1128,258 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="482" />
+      <option name="time" value="685" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/__init__.py">
+    <entry file="file://$PROJECT_DIR$/features/steps/workers.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Work/pitonchik/djangoenv/local/lib/python2.7/site-packages/behave/model.py">
+    <entry file="file://$PROJECT_DIR$/features/steps/customers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28350">
-          <caret line="1902" column="0" selection-start-line="1902" selection-start-column="0" selection-end-line="1902" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/page_selector.py">
+    <entry file="file://$PROJECT_DIR$/features/steps/popups.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Work/pitonchik/djangoenv/local/lib/python2.7/site-packages/behave/runner.py">
+    <entry file="file://$PROJECT_DIR$/features/popups.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Work/pitonchik/djangoenv/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/browser.py" />
-    <entry file="file://$PROJECT_DIR$/dbfolder/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/token_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbfolder/get_mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info_account.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/token_list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ggg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini" />
-    <entry file="file://$PROJECT_DIR$/features/steps/variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/2 login.feature" />
-    <entry file="file://$USER_HOME$/Work/pitonchik/djangoenv/local/lib/python2.7/site-packages/pyvirtualdisplay/display.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Work/pitonchik/djangoenv/local/lib/python2.7/site-packages/pyvirtualdisplay/abstractdisplay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="102" column="15" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chromedriver">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Work/pitonchik/djangoenv/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="713" column="8" selection-start-line="713" selection-start-column="8" selection-end-line="713" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Work/pitonchik/djangoenv/local/lib/python2.7/site-packages/behave/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1902" column="0" selection-start-line="1902" selection-start-column="0" selection-end-line="1902" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/testtttt.py" />
-    <entry file="file://$PROJECT_DIR$/features/steps/testttttt.py" />
-    <entry file="file://$PROJECT_DIR$/features/steps/login.py" />
-    <entry file="file://$PROJECT_DIR$/jsons/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsons/reg.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/managers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsons/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbfolder/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbfolder/regexp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbfolder/writeToFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbfolder/ttttttttt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_bdd_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/behave_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="282" column="0" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/behave/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="657" column="0" selection-start-line="657" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/registration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/behave/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="1902" column="0" selection-start-line="1902" selection-start-column="0" selection-end-line="1902" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/1 registration.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python2.7/ConfigParser.py">
+    <entry file="file://$PROJECT_DIR$/dbfolder/data.csv" />
+    <entry file="file://$PROJECT_DIR$/dbfolder/get_mail.py" />
+    <entry file="file://$PROJECT_DIR$/dbfolder/regexp.py" />
+    <entry file="file://$PROJECT_DIR$/dbfolder/ttttttttt.py" />
+    <entry file="file://$PROJECT_DIR$/dbfolder/writeToFile.py" />
+    <entry file="file://$PROJECT_DIR$/features/steps/registration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="616" column="20" selection-start-line="616" selection-start-column="20" selection-end-line="616" selection-end-column="20" />
+        <state relative-caret-position="-948">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Work/pitonchik/djangoenv/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py">
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/selenium/webdriver/support/expected_conditions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5325">
-          <caret line="357" column="8" selection-start-line="357" selection-start-column="8" selection-end-line="357" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="42">
+          <caret line="181" column="24" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/pages/page_selector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/2 managers.feature">
+    <entry file="file://$PROJECT_DIR$/features/4workers.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/customers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/workers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/3customers.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/1registration.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apiii/python/youtrack2youtrack.py" />
+    <entry file="file://$PROJECT_DIR$/apiii/python/youtrackRestSamples.py" />
+    <entry file="file://$PROJECT_DIR$/apiii/python/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/youtrack/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/apiii/python/youtrack/connection.py" />
+    <entry file="file://$PROJECT_DIR$/apiii/python/youtrack/__init__.py" />
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/behave/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="671" column="0" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_bdd_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/youtrack/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="306" column="8" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/tempfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6450">
+          <caret line="433" column="4" selection-start-line="433" selection-start-column="4" selection-end-line="433" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/urllib2_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4545">
+          <caret line="312" column="22" selection-start-line="312" selection-start-column="22" selection-end-line="312" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/img.jpg" />
+    <entry file="file://$PROJECT_DIR$/features/steps/Dima.png" />
+    <entry file="file://$PROJECT_DIR$/Dima.png" />
+    <entry file="file://$PROJECT_DIR$/erwewer.png" />
+    <entry file="file://$PROJECT_DIR$/features/steps/kovach.jpg" />
+    <entry file="file://$PROJECT_DIR$/kovach.jpg" />
+    <entry file="file://$PROJECT_DIR$/img.jpg" />
+    <entry file="file://$PROJECT_DIR$/features/steps/m.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/screenshots/Create manager negative.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/behave/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="1902" column="0" selection-start-line="1902" selection-start-column="0" selection-end-line="1902" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/steps/general_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state relative-caret-position="239">
+          <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-135632448/__builtin__.py">
+    <entry file="file://$PROJECT_DIR$/features/steps/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="18" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/managers.py">
+    <entry file="file://$PROJECT_DIR$/features/steps/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="184" column="25" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/youtrack/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="737" column="8" selection-start-line="737" selection-start-column="8" selection-end-line="737" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/behave_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/environment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="211">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/managers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="200" column="14" selection-start-line="200" selection-start-column="14" selection-end-line="200" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/screenshots/data.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/2managers.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
