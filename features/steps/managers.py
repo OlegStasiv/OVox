@@ -198,13 +198,20 @@ def step_impl(context):
     #context.browser.find_element(*AddManager.SAVE_NEW_MANAGER_BTN).click()
     time.sleep(0.7)
 
-@then('appears toast message "{toast}"')
+@then('should appears toast message "{toast}"')
 def step_impl(context, toast):
     message = general_methods.getToastMessage(context)
     try:
         my = message.text
         print (my)
-        assert toast == my
+        if toast == my:
+            pass
+        else:
+            a =getattr(context, '_stack')
+            issue_name = getattr((dict(a[0]))['scenario'], 'name')
+            context.browser.get_screenshot_as_file('features/steps/screenshots/{}.png'.format(issue_name))
+            assert False
+
     except AttributeError:
         time.sleep(0.5)
         assert False

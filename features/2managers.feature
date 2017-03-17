@@ -64,10 +64,10 @@ Scenario: Search
   Then list contain only "Ronald Dithem" and not contain "Arnold Bobo"
 
   @test
-  Scenario: Create manager negative
+  Scenario: Create a manager without any data
     Given website "http://omnivox.thinkmobiles.com/"
     When login ass owner
     When click on "Managers" in Menu
     When click on AddManager button
     When click on Add Manager without any data
-    Then appears toast message "Please fill in all fieldsss"
+    Then should appears toast message "Please fill in all fieldss"
