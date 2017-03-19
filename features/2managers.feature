@@ -70,4 +70,4 @@ Scenario: Search
     When click on "Managers" in Menu
     When click on AddManager button
     When click on Add Manager without any data
-    Then should appears toast message "Please fill in all fieldss"
+    Then should appears toast message "Please fill in all fields"
