@@ -9,8 +9,5 @@ stat,dta = msrvr.fetch(cnt[0],'(UID BODY[TEXT])')
 email = dta[0][1]
 print (email)
 print (email)
-print (email)
-print (email)
-print (email)
 msrvr.close()
 msrvr.logout()
