@@ -3,8 +3,12 @@ import random
 import string
 import time
 
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, ElementNotVisibleException, InvalidElementStateException, \
+    StaleElementReferenceException
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from wheel.signatures import assertTrue
 from selenium.webdriver.support.ui import WebDriverWait
@@ -73,12 +77,14 @@ def create_customers(context, count):
 
 
 def create_workers(context, count):
-    context.browser.find_element(*GeneralLocator.MENU_WORKER).click()
+    # context.browser.find_element(*GeneralLocator.MENU_WORKER).click()
     with open(ROOT_DIR + '/workers.json') as data_file:
         data = json.load(data_file)
     i = 0
+    time.sleep(5)
 
     while i < int(count):
+        time.sleep(1)
         context.browser.find_element(*GeneralLocator.ADD_MANAGER_BTN).click()
         time.sleep(1)
         context.browser.find_element(*AddWorker.FIRST_NAME).send_keys(data[i]['first'])
@@ -86,6 +92,8 @@ def create_workers(context, count):
         context.browser.find_element(*AddWorker.PHONE).send_keys(data[i]['phone'])
         context.browser.find_element(*AddWorker.DROPDOWN_LIST).click()
         context.browser.find_element(By.XPATH, ".//ul[@id='managerForNewWorker-menu']/li[2]").click()
+        context.browser.find_element(By.ID, "breakTimeForNewWorker-button").click()
+        context.browser.find_element(By.XPATH, ".//ul[@id='breakTimeForNewWorker-menu']/li[2]").click()
         context.browser.find_element(*AddWorker.SAVE_NEW_WORKER_BTN).click()
         time.sleep(0.5)
         i = i + 1
@@ -161,3 +169,58 @@ def getToastMessage(context):
         return search_result
     except NoSuchElementException:
         time.sleep(0.5)
+
+
+def setEvents(context, start, end):
+    def _move_and_click(context, elem):
+        Hover = ActionChains(context.browser).move_to_element(elem)
+        Hover.click().perform()
+
+    max_page = int(context.browser.find_element(By.XPATH, ".//ul[@id='pagination-indicators']/li[last()]").text)
+    counter = 2
+    while counter <= max_page:
+        s = context.browser.find_elements(By.XPATH,
+                                          ".//button[1][contains(@class, 'start') and not(contains(@class ,'hide'))]")
+        e = context.browser.find_elements(By.XPATH,
+                                          ".//button[2][contains(@class, 'end') and not(contains(@class ,'hide'))]")
+
+        if len(s) == 0 and len(e) == 0:
+            page = context.browser.find_element(By.XPATH, ".//ul[@id='pagination-indicators']/li[.='{}']".
+                                         format(counter))
+            page.click()
+            print ("click on other page " + str(counter))
+            time.sleep(2)
+        else:
+            for test in s:
+                start_list = context.browser.find_elements(By.XPATH, ".//button[1][contains(@class, 'start') and not(contains(@class ,'hide'))]")
+                start_input = context.browser.find_elements(By.XPATH, ".//button[1][contains(@class, 'start') and not(contains(@class ,'hide'))]/parent::div//input[contains(@class, 'input-1')]")
+                for a in start_list:
+                    _move_and_click(context, a)
+                    time.sleep(0.3)
+                    for i in start_input:
+                        i.send_keys(start)
+                        time.sleep(0.1)
+                        i.send_keys(Keys.ENTER)
+                        time.sleep(1)
+                        break
+                    break
+
+            for test1 in e:
+                end_list = context.browser.find_elements(By.XPATH, ".//button[2][contains(@class, 'end') and not(contains(@class ,'hide'))]")
+                end_input = context.browser.find_elements(By.XPATH, ".//button[2][contains(@class, 'end') and not(contains(@class ,'hide'))]/parent::div//input[contains(@class, 'input-2')]")
+                for a in end_list:
+                    _move_and_click(context, a)
+                    time.sleep(0.3)
+                    for i in end_input:
+                        i.send_keys(end)
+                        time.sleep(0.1)
+                        i.send_keys(Keys.ENTER)
+                        time.sleep(1.5)
+                        break
+                    break
+        page = context.browser.find_element(By.XPATH, ".//ul[@id='pagination-indicators']/li[.='{}']".
+                                            format(counter))
+        page.click()
+        print ("click on other page")
+        time.sleep(2)
+        counter = counter + 1

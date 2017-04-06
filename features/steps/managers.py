@@ -23,6 +23,7 @@ psw = config.get('main', 'psw')
 @when("login ass owner")
 def step(context):
     general_methods.login(context,email=username, password=psw)
+    time.sleep(3)
 
 
 

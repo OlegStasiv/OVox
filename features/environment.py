@@ -14,7 +14,7 @@ def before_scenario(context, scenario):
     # context.browser = webdriver.Chrome() if you have set chromedriver in your PATH
 
     context.browser.set_page_load_timeout(300)
-    context.browser.implicitly_wait(20)
+    context.browser.implicitly_wait(2)
     context.browser.set_window_size(1300, 720)
     context.browser.maximize_window()
 
