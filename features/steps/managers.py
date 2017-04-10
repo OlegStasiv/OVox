@@ -141,6 +141,7 @@ def step_impl(context):
                 .click()
 
         time.sleep(0.2)
+    time.sleep(5)
 
 
 
@@ -148,6 +149,7 @@ def step_impl(context):
 @when("create few managers")
 def step_impl(context):
     for row in context.table:
+        time.sleep(1)
         context.browser.find_element(*GeneralLocator.ADD_MANAGER_BTN).click()
         time.sleep(1)
         context.browser.find_element(*AddManager.F_NAME).send_keys(row["first"])
@@ -187,9 +189,9 @@ def step_impl(context, name1, name2):
 
 @when("click on AddManager button")
 def step_impl(context):
-    time.sleep(0.7)
+    time.sleep(1)
     context.browser.find_element(*GeneralLocator.ADD_MANAGER_BTN).click()
-    time.sleep(0.7)
+    time.sleep(1)
 
 
 @when("click on Add Manager without any data")

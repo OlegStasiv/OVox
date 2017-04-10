@@ -42,7 +42,7 @@ def create_managers(context, count):
     i = 0
 
     while i < int(count):
-        time.sleep(0.7)
+        time.sleep(1)
         context.browser.find_element(*GeneralLocator.ADD_MANAGER_BTN).click()
         wait.until(EC.presence_of_element_located((AddManager.F_NAME))).\
             send_keys(data["data"][i][0])
@@ -52,7 +52,7 @@ def create_managers(context, count):
         context.browser.find_element(*AddManager.PASSWORD).send_keys("Go1234")
         context.browser.find_element(*AddManager.CONFIRM_PASSWORD).send_keys("Go1234")
         context.browser.find_element(*AddManager.SAVE_NEW_MANAGER_BTN).click()
-        time.sleep(0.3)
+        time.sleep(1)
         i = i + 1
 
 def create_customers(context, count):
