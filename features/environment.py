@@ -54,4 +54,4 @@ def before_scenario(context, scenario):
 
 
 
-    context.browser.close()
+    # context.browser.close()
