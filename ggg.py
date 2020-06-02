@@ -11,4 +11,5 @@ print (email)
 print (email)
 msrvr.close()
 msrvr.logout()
+#TEST
 msrvr.logout()
