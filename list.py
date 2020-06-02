@@ -1,5 +1,5 @@
 import turtle
-oleg = 2000
+oleg = 20000
 my  = qweqwewqeqwewqe
 i = 150
 while i > 1:
